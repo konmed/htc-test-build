@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>ЦВТ</title>
+  </head>
+  <body>
+  	
+    <div class="container"> 
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item ">
+          <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Профиль</a>
+        </li>
+        <li class="nav-item sdvig">
+          <a class="nav-link" id="friends-tab" data-toggle="tab" href="#friends" role="tab" aria-controls="friends" aria-selected="false">Друзья пользователя</a>
+        </li>
+      </ul>
+      
+         
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          
+          <div class="wrap">
+            <div class="cat">
+              <img  class="cat_img_width" src="img/cat.jpg" alt="">
+              <!-- <a href="#"><div class="btnn">Добавить в друзья</div></a> -->
+              <form>
+              	<input class="btnn" type="button" value="Добавить в друзья" form="data">
+              	
+              	
+              </form>
+
+            </div>
+            <div class="content">
+              <h1 class="name_content edited_block" id="name">Виталя Гора</h1>
+              <p class="city_content">г. Нижние Шахты</p>
+              <div class="info_content">
+                <div class="asc">
+                  <p>Семейное положение</p>  
+                  <p>Телефон</p>  
+                  <p>E-mail</p> 
+                
+                </div>
+                <div class="answer">
+                  <p>Холост</p>  
+                  <p class="edited_block" id="phone">+7 (440) 554-32-12</p>  
+                  <p><a href="#" class="edited_block" id="email">vitalya@gora.ru</a></p> 
+                </div>
+
+              </div>
+              <p class="intresting">Интересы</p>
+              <div class="group_btn" id="hobbies">
+                
+              </div>
+            </div>
+          </div>
+           <form>
+            <input id="new_hobby" value="" placeholder="хобби" type="text" />
+            <input id="add_hobby" type="button" value="Добавить интерес" />
+          </form>      
+        
+        </div>
+
+        <div class="tab-pane fade" id="friends" role="tabpanel" aria-labelledby="friends-tab">
+          <div class="friends_wrap wrap ">
+           
+            <div class="friends_block">
+              <div class="friends_block_item">
+        
+                <img src="img/lion.jpg">
+                <div class="friends_info">
+                  <a href="#">Лев Бронштейн</a>
+                  <p class="friends_city">г.Ханта Мансийск</p>
+                  <p class="online">Online</p>
+                </div>
+              </div>
+              <div class="friends_block_item">
+                <img src="img/tiger.jpg">
+                <div class="friends_info">
+                  <a href="#">Успех возможностей</a>
+                  <p class="friends_city">г.Пермь</p>
+                </div>
+              </div>
+              <div class="friends_block_item">
+                <img src="img/dog.jpg">
+                <div class="friends_info">
+                  <a href="#">Инна Нашлась</a>
+                  <p class="friends_city">г.Омск</p>
+                  <p class="online">Online</p>
+                </div>
+              </div>
+            </div>
+            <div class="friends_block">
+              <div class="friends_block_item">
+                <img src="img/black_cat.jpg">
+                <div class="friends_info">
+                  <a href="#">Находка Капитал</a>
+                  <p class="friends_city">г.Усть Бельск</p>
+                </div>
+              </div>
+              <div class="friends_block_item">
+                <img src="img/foxy_cat.jpg">
+                <div class="friends_info">
+                  <a href="#">Успех Возможностей</a>
+                  <p class="friends_city">г.Радонеж</p>
+                  <p class="online">
+                    Online
+                  </p>
+                </div>
+              </div>
+              <div class="friends_block_item">
+                <img src="img/white_cat.jpg">
+                <div class="friends_info">
+                  <a href="#">Алла Подольская</a>
+                  <p class="friends_city">г.Петропавловск-</p>
+                  <p class="friends_city subcity" >Камчатский</p>
+                  <p class="online margin_online">Online</p>
+                </div><!--friends_info-->
+               </div><!--friends_block_item-->  
+             </div><!--friends_block--> 
+          </div><!--friends_wrap-->
+        </div><!--tab_pane-->
+      </div><!--tab_content--> 
+    </div><!--container--> 
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+   </body>
+</html>    
+    
+ 
+      
+
+   
+   
+   
+
+
+
+
+    
